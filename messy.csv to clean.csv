@@ -1,0 +1,38 @@
+#messy.csv
+
+
+#file 1
+ Name 	 Age	 City 
+ Alice 	25	New York
+Bob	30	Los Angeles
+Alice 	25	New York
+
+#file 2
+ Name 	 Age	 City 
+Charlie	35	Chicago
+Dana		Houston
+Eve	28	
+Bob	30	Los Angeles
+
+#file 3
+ Name 	 Age	 City 
+Frank	40	Miami
+Grace	22	Boston
+Heidi		New York
+Alice	25	New York
+
+#clean.csv
+
+Name	Age	City
+ Alice 	25	New York
+Bob	30	Los Angeles
+Alice 	25	New York
+		
+Charlie	35	Chicago
+Dana		Houston
+Eve	28	
+Frank	40	Miami
+Grace	22	Boston
+Heidi		New York
+Alice	25	New York
+
