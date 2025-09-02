@@ -19,8 +19,9 @@ else:
     combined = pd.concat(df_list, ignore_index=True)
 
     # cleaning
-    combined.drop_duplicates(inplace=True)
-    combined.dropna(how="all", inplace=True)
+    combined.drop_duplicates(inplace=True)        # remove duplicate rows
+    combined.dropna(how="all", inplace=True)      # drop fully empty rows
+    combined.fillna("Unknown", inplace=True)      # fill missing values
 
     # optional: strip spaces in column names
     combined.columns = [col.strip() for col in combined.columns]
@@ -28,3 +29,4 @@ else:
     output_file = "cleaned_output.xlsx"
     combined.to_excel(output_file, index=False)
     print(f" Saved: {output_file}")
+
