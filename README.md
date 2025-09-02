@@ -12,6 +12,8 @@ This repo contains two ready-to-run Python scripts for freelancers and data work
 - Saves clean Excel files
 
 How to Run
-```bash
-python clean csv.py
-python pdf to excel.py
+1. download the code
+2. put the messy csv files on one folder
+3. copy the path of that folder
+4. run the code using cmd
+5. paste the path 
